@@ -10,7 +10,7 @@
 
 ### Configuration
 
-[Application-Properties](src/main/resources/application.properties)
+[Application-Properties](src/main/resources/application.yml)
 <br />
 [GIF Banner](src/main/resources/banner.gif)
 
