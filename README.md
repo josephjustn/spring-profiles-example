@@ -1,23 +1,19 @@
 # Spring Profiles Example
+Example of using Spring Profiles with @Component annotated classes and configuration files, specifically application.yml
 
 ## Info
-
-### Beans
-
+### Beans:
 [ProductionMrBean](src/main/java/com/example/profile/demo/beans/ProductionMrBean.java)
 <br />
 [RowanAtkinson](src/main/java/com/example/profile/demo/beans/RowanAtkinson.java)
 
-### Configuration
-
-[Application-Properties](src/main/resources/application.yml)
+### Configuration:
+[Configuration File](src/main/resources/application.yml)
 <br />
 [GIF Banner](src/main/resources/banner.gif)
 
-## To Run:
-
+## To Run
 ### Enables ProductionMrBean bean
-
 Runs on port 7070.
 
 ```bash
@@ -25,7 +21,6 @@ mvn spring-boot:run -"Dspring.profiles.active=prod"
 ```
 
 ### Enables RowanAtkinson bean
-
 Runs on port 6969.
 
 ```bash
