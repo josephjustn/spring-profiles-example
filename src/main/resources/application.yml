@@ -1,0 +1,18 @@
+server:
+  port: 6969
+
+management:
+  endpoint:
+    beans:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: beans
+
+---
+
+spring:
+  profiles: prod
+server:
+  port: 7070
